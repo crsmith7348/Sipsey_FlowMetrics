@@ -21,7 +21,7 @@
 remove(list=ls())
 
 #Install relevant packages (only do this once!)
-#remotes::install_github("USGS-R/EflowStats")
+remotes::install_github("USGS-R/EflowStats")
 
 #Load relevant libraries
 library(dataRetrieval)
